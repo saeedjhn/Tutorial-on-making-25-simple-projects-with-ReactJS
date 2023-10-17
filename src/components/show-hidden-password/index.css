@@ -1,0 +1,30 @@
+input,
+input:hover {
+  border: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gainsboro;
+  height: 100vh;
+  width: 100vw;
+}
+
+.input-fields {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  padding: 0.8rem;
+  border-radius: 2rem;
+}
+
+.input-fields input {
+  background: transparent;
+}
+
+.input-fields span {
+  cursor: pointer;
+}
