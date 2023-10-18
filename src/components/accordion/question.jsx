@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Icon } from "react-icons-kit";
+import { plusCircle, minusCircle } from "react-icons-kit/feather/";
 
 function Question({ title, info }) {
   const [showParagraph, setShowParagraph] = useState(false);
@@ -11,8 +13,15 @@ function Question({ title, info }) {
         Too many re-renders. React limits the number of renders to prevent an infinite loop.
         solution:
         onClick={() => setShowParagraph(!showParagraph)} */}
-        <button type="button" onClick={() => setShowParagraph(!showParagraph)}>
-          button
+        <button
+          className="question__button"
+          onClick={() => setShowParagraph(!showParagraph)}
+        >
+          {showParagraph ? (
+            <Icon icon={minusCircle} size={34} />
+          ) : (
+            <Icon icon={plusCircle} size={34} />
+          )}
         </button>
       </header>
       {showParagraph && (
