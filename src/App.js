@@ -1,4 +1,4 @@
-import Index from "./components/show-hidden-password/index";
+import Index from "./components/accordion/index";
 
 function App() {
   return (

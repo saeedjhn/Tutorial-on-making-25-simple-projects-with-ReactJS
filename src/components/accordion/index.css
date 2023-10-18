@@ -1,0 +1,30 @@
+.questions-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  padding: 2rem;
+}
+
+.question-wrapper {
+  width: 55vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: beige;
+  border-radius: 2rem;
+  margin-top: 0.4rem;
+}
+
+.question-wrapper__header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 1rem 2rem;
+}
+
+.question-wrapper__paragraph {
+  font-size: 0.8rem;
+  padding: 0 1rem 1rem 1rem;
+}
