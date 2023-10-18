@@ -6,9 +6,9 @@ import "./index.css";
 
 function Index() {
   return (
-    <section className="questions-wrapper">
-      <h3 className="questions-wrapper__header">You Have A Question?</h3>
-      <section className="questions-wrapper__info">
+    <section className="questions-container">
+      <h3 className="questions__header">You Have A Question?</h3>
+      <section className="questions__item">
         {accordionData.map((question, index) => {
           return <Question key={index} {...question} />;
         })}

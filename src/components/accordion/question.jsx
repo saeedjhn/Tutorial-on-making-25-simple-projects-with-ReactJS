@@ -3,8 +3,8 @@ import React, { useState } from "react";
 function Question({ title, info }) {
   const [showParagraph, setShowParagraph] = useState(false);
   return (
-    <section className="question-wrapper">
-      <header className="question-wrapper__header">
+    <section className="question">
+      <header className="question__header">
         <h6>{title}</h6>
         {/* if onClick={setShowParagraph(!showParagraph)}, 
         resault: 
@@ -16,7 +16,7 @@ function Question({ title, info }) {
         </button>
       </header>
       {showParagraph && (
-        <section className="question-wrapper__paragraph">{info}</section>
+        <section className="question__paragraph">{info}</section>
       )}
     </section>
   );
