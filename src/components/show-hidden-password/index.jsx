@@ -18,7 +18,7 @@ function Index() {
   const [type, setType] = useState("password"); /* Initialize */
   const [icon, setIcon] = useState(eyeOff); /* Allow use Component(Object) */
 
-  function handleOnClick() {
+  const handleOnClick = () => {
     if (type === "password") {
       setType("text");
       setIcon(eye);
@@ -27,7 +27,7 @@ function Index() {
 
     setType("password");
     setIcon(eyeOff);
-  }
+  };
 
   return (
     <div className="wrapper">

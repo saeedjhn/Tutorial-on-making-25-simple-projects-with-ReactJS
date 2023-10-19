@@ -4,6 +4,8 @@ import { plusCircle, minusCircle } from "react-icons-kit/feather/";
 
 function Question({ title, info }) {
   const [showParagraph, setShowParagraph] = useState(false);
+
+  const handleOnclick = () => setShowParagraph(!showParagraph);
   return (
     <section className="question">
       <header className="question__header">
@@ -13,10 +15,7 @@ function Question({ title, info }) {
         Too many re-renders. React limits the number of renders to prevent an infinite loop.
         solution:
         onClick={() => setShowParagraph(!showParagraph)} */}
-        <button
-          className="question__button"
-          onClick={() => setShowParagraph(!showParagraph)}
-        >
+        <button className="question__button" onClick={handleOnclick}>
           {showParagraph ? (
             <Icon icon={minusCircle} size={34} />
           ) : (
