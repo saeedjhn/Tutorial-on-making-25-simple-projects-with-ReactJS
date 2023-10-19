@@ -9,9 +9,9 @@ function Index() {
     <section className="questions-container">
       <h3 className="questions__header">You Have A Question?</h3>
       <section className="questions__item">
-        {accordionData.map((question, index) => {
-          return <Question key={index} {...question} />;
-        })}
+        {accordionData.map((question, index) => (
+          <Question key={index} {...question} />
+        ))}
       </section>
     </section>
   );

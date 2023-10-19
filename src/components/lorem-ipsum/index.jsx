@@ -49,9 +49,9 @@ function Index() {
       </form>
       <section className="lorem__error text-sm mt-2">{error}</section>
       <section className="lorem__paragraph text-sm mt-2">
-        {text.map((v, i) => {
-          return <p key={i}>{v}</p>;
-        })}
+        {text.map((v, i) => (
+          <p key={i}>{v}</p>
+        ))}
       </section>
     </section>
   );
