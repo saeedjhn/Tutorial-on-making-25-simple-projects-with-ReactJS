@@ -1,0 +1,36 @@
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.text-sm {
+  font-size: 0.5rem;
+}
+
+.input-fields {
+  border: none;
+  padding: 0.3rem;
+  border-radius: 8%;
+}
+
+.lorem-container {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: beige;
+  padding: 1.2rem;
+  border-radius: 10%;
+}
+
+.lorem__button {
+  background-color: palevioletred;
+}
+
+.lorem__error {
+  color: red;
+}
