@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import logo from "./logo.png";
-import { links, social, btnIcon } from "./data";
+import { links, btnIcon } from "./data";
 
 import "./index.css";
 
