@@ -100,8 +100,8 @@ button {
 In the layout variables section I define all important frame layout specific variables
 */
 :root {
-  /* Reset 1rem = 16px */
-  font-size: 16px;
+  /* Reset 1rem = 12px */
+  font-size: 12px;
 
   /* Basic colors */
   --white: #ffffff;
