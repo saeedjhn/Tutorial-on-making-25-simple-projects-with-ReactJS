@@ -1,0 +1,51 @@
+.mt-2 {
+  margin-top: 0.2rem;
+}
+
+.reviews-container {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: aqua; */
+  margin: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0.2rem 0.2rem 0.5rem gray;
+}
+
+.reviews__items {
+  padding: 1rem;
+}
+
+.review {
+  display: flex;
+  width: 90vw;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.review__img img {
+  border-radius: 50%;
+  border: 0.1rem solid gray;
+}
+
+.review__job {
+  font-size: 1rem;
+  color: red;
+}
+
+.review__info {
+  height: 30vh;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.review__footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+}
