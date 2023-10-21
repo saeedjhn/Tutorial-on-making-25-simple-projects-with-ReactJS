@@ -1,0 +1,49 @@
+header {
+  background-color: darkcyan;
+  color: aliceblue;
+  padding: 1.2rem;
+}
+
+.header__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+}
+
+.header__list li {
+  margin: 0 0.5rem;
+}
+
+.content-container {
+  padding: 0.8rem;
+  font-size: 1rem;
+}
+
+.content__paragraph {
+  margin: 2rem 0rem;
+  padding: 0 10rem;
+  text-align: justify;
+}
+
+.progressBar-container {
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+
+.progressBar__main {
+  width: 100vw;
+  height: 0.5rem;
+  background-color: green;
+  z-index: 1;
+}
+
+.progressBar__relative {
+  /* width: 0; */
+  height: inherit;
+  background-color: red;
+}
