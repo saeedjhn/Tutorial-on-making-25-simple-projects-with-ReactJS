@@ -1,0 +1,18 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom left, blue, purple);
+}
+
+.sendMessage-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0.3rem 0.3rem 0.5rem gray;
+  padding: 2.5rem;
+  background-color: lightsteelblue;
+}
