@@ -175,6 +175,18 @@ h4 {
   font-weight: 700;
 }
 
+input {
+  padding: 0.6rem 0.3rem;
+  margin: 0.5rem 0;
+}
+
+button {
+  /* background-color: ; */
+  font-weight: 700;
+  padding: 0.8rem;
+  box-shadow: 0.3rem 0.3rem 0.5rem gray;
+}
+
 /* Specifics 
 The specific section of my CSS system is always the most detailed. Here I define specific content 
 design by directly addressing the sections. Per section I stick to a hierarchical order of definitions.
